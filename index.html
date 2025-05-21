@@ -1,72 +1,69 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rachele Allena - Homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <header class="bg-white shadow sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <a href="https://www.cnrs.fr" target="_blank" class="text-blue-600 hover:underline">
+          <img src="images/cnrslogo.png" alt="CNRS Logo" class="h-12" />
+        </a>
+        <nav class="space-x-6 text-sm">
+          <a href="#contact" class="text-gray-700 hover:text-blue-700">Contact</a>
+          <a href="#cv" class="text-gray-700 hover:text-blue-700">CV</a>
+          <a href="#responsibilities" class="text-gray-700 hover:text-blue-700">Responsibilities</a>
+          <a href="#research topics" class="text-gray-700 hover:text-blue-700">Research topics</a>
+          <a href="#teaching" class="text-gray-700 hover:text-blue-700">Teaching</a>
+          <a href="#scientific supervision" class="text-gray-700 hover:text-blue-700">Scientific supervision</a>
+          <a href="#publications" class="text-gray-700 hover:text-blue-700">Publications</a>
+        </nav>
+        <a href="https://univ-cotedazur.fr/" target="_blank" class="text-blue-600 hover:underline">
+          <img src="images/logounice.png" alt="University Logo" class="h-12" />
+        </a>
+      </div>
+    </header>
 
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <!-- CHANGE PAGE TITLE WITH YOUR NAME AND FIRST NAME -->
-        <title>Rachele Allena home page</title>
-        <link rel="stylesheet" type="text/css" href="css/page.css" media="all " />
-    </script>
-    </head>
-
-    <body>
-        <div id="page">
-        <div id="bandeau">
-           <table border="0" width="100%">
-              <tr>
-                 <td align="left" width="20%"><a href="http://www.cnrs.fr" target="_blank"><img src="images/cnrslogo.png"></a></td>
-                 <td align="center" width="60%"><h2><a href="https://math.univ-cotedazur.fr">LABORATORY J.A. DIEUDONNE</a></h2>UMR CNRS 7351</td>
-                 <td align="right" width="20%"><a href="https://univ-cotedazur.fr/" target="_blank"><img src="images/logounice.png"></a></td>
-              </tr>
-           </table>
+    <main class="max-w-5xl mx-auto px-6 py-10 space-y-12">
+      <section class="flex flex-col md:flex-row items-center justify-between">
+        <div>
+          <h1 class="text-3xl font-bold">Rachele Allena</h1>
+          <p class="text-gray-600 mt-2">Full Professor, Université Côte d'Azur</p>
         </div>
-        
-        
+        <img src="images/id.jpg" alt="Rachele Allena" class="w-32 h-auto mt-6 md:mt-0 rounded shadow" />
+      </section>
 
-        <div id="content">
-        <table border="0" width="100%" cellpadding="0" cellspacing="0">
-           <tr>
-              <td align="left" valign="top">
-                 <!-- Change name and first name -->
-                 <div id="nom">Rachele Allena</div>
-              </td>
-              <td align="right">
-                 <!-- Change id photo with size  82x100 px -->
-                 <img src="images/id.jpg">
-              </td>
-           </tr>
-        </table>
-        
-        <div id="contact">Contact</div>
-        <table width="100%" cellpadding="15px">
-        <tr>
-        <td valign="top">
-        <b>Address :</b><br>
-                Bâtiment Fizeau - Bureau 05-008<br>
-                Laboratoire J.A.Dieudonné<br>
-                UMR CNRS 7351<br>
-                Université Côte d'Azur<br>
-                Parc Valrose<br>
-                06108 NICE Cedex 2<br>
-        </td>
-        <td valign="top">
-        <b>Phone Number :</b>
-                <!-- Change phone number -->
-                04 89 15 04 79 <br>
-                <b>Fax Number :</b>
-                04 93 51 79 74 <br>
-                <b>Mail :</b>
-                <!-- Put mail -->
-                rachele [dot] allena [at] unice [dot] fr<br>
-        </td>
-        </tr>
-        </table>
-        <div id="recherche">CV</div>
-        <!-- CHANGE -->
-        
-        <div style="display: flex">
+      <section id="contact">
+        <h2 class="text-2xl font-semibold text-blue-800 mb-4">Contact</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <p>Bâtiment Fizeau - Bureau 05-008<br />Laboratoire J.A.Dieudonné<br />UMR CNRS 7351<br />Université Côte d'Azur<br />Parc Valrose<br />06108 NICE Cedex 2</p>
+          </div>
+          <div>
+            <p><strong>Phone:</strong> 04 89 15 04 79<br />
+            <strong>Fax:</strong> 04 93 51 79 74<br />
+            <strong>Email:</strong> rachele [dot] allena [at] unice [dot] fr</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="cv">
+        <h2 class="text-2xl font-semibold text-blue-800 mb-4">CV</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-                <ul >
+                <ul class="space-y-2">
                     <li >
               <p style="margin-bottom:0;">  2024 - ...</p>
                     </li>
@@ -106,19 +103,20 @@
                     <li>
               <p style="margin-top:0;margin-bottom:0;">2003 - 2004</p>
                     </li>
-                    
+                </ul>
                     
             </div>
             
             <div style="margin-left: 2rem">
+                <ul class="space-y-2">
                 <p style="margin-bottom:0;">Full Professor at Université Côte d'Azur</p>
               <p style="margin-top:0;margin-bottom:0;"><a
                   href="https://www.iufrance.fr/les-membres-de-liuf/membre/2472-rachele-allena.html"
-                  target="_blank">Junior member </a> of the Institut Universitaire de France</p>
+                  target="_blank" class="text-blue-600 hover:underline">Junior member </a> of the Institut Universitaire de France</p>
               <p style="margin-top:0;margin-bottom:0;">Associate Professor at Université Côte d'Azur</p>
               <p style="margin-top:0;margin-bottom:0;">Associate Professor at ENSAM Paris</p>
-              <p style="margin-top:0;margin-bottom:0;">Accueil en Délégation CNRS at Institut Jacques Monod</p>
-              <p style="margin-top:0;margin-bottom:0;">Habilitation à diriger des Recherches at Université Pierre et Marie Curie</p>
+              <p style="margin-top:0;margin-bottom:0;">CNRS Delegation CNRS at Institut Jacques Monod</p>
+              <p style="margin-top:0;margin-bottom:0;">HDR at Université Pierre et Marie Curie</p>
               <p style="margin-top:0;margin-bottom:0;">Assistant Professor at ENSAM Paris</p>
               <p style="margin-top:0;margin-bottom:0;">Post doctoral fellow at Center for Genomic Regulation of Barcelona</p>
               <p style="margin-top:0;margin-bottom:0;">Post doctoral fellow at Centrale Supélec</p>
@@ -129,232 +127,203 @@
               </ul>
             </div>
         </div>
-        
-        
-        <div id="recherche">Pedagogical, scientific and administrative responsabilities</div>
-        <!-- CHANGE -->
-        <ul>
-            <li>
-               Editorial Board Member <a href="  https://www.nature.com/srep/about/editors#biomedical-engineering" target="_blank">Scientific Reports </a>
-            </li>
+      </section>
+      
+      <section id="responsibilities">
+        <h2 class="text-2xl font-semibold text-blue-800 mb-4">Responsibilities</h2>
+        <ul class="list-disc list-inside space-y-2">
         <li>
-            Section Editor <a href="  https://www.tandfonline.com/journals/tmls20" target="_blank">Mathematics in Medical and Life Sciences </a>
+               Editorial Board Member <a href="  https://www.nature.com/srep/about/editors#biomedical-engineering" target="_blank" class="text-blue-600 hover:underline" class="text-blue-600 hover:underline">Scientific Reports </a>
         </li>
         <li>
-        Chair of the <a href="https://univ-cotedazur.eu/events/mecabionic" target="_blank"> Mechanobiology Group </a> at Université Côte d'Azur
+            Section Editor <a href="  https://www.tandfonline.com/journals/tmls20" target="_blank" class="text-blue-600 hover:underline" class="text-blue-600 hover:underline">Mathematics in Medical and Life Sciences </a>
         </li>
         <li>
-        Member of the <a href="https://math.univ-cotedazur.fr/laboratoire/conseil-scientifique.html" target="_blank"> Scientific Council</a> of the LJAD
+        Chair of the <a href="https://univ-cotedazur.eu/events/mecabionic" target="_blank" class="text-blue-600 hover:underline" class="text-blue-600 hover:underline"> Mechanobiology Group </a> at Université Côte d'Azur
         </li>
         <li>
-        Chair of the <a href="https://math.univ-cotedazur.fr/laboratoire/commission-de-la-formation-par-la-recherche.html" target="_blank"> Commission de la formation par la recherche  </a> of the LJAD
-        </li>
-        </ul>
-        
-        <div id="recherche">Research Topics</div>
-        <!-- CHANGE -->
-        <ul>
-        <li>
-        Computational mechanics
+        Member of the <a href="https://math.univ-cotedazur.fr/laboratoire/conseil-scientifique.html" target="_blank" class="text-blue-600 hover:underline" class="text-blue-600 hover:underline"> Scientific Council</a> of the LJAD
         </li>
         <li>
-        Numerical methods
-        </li>
-        <li>
-        Mechanobiology
-        </li>
-        <li>
-        Cell mechanics
+        Chair of the <a href="https://math.univ-cotedazur.fr/laboratoire/commission-de-la-formation-par-la-recherche.html" target="_blank" class="text-blue-600 hover:underline" class="text-blue-600 hover:underline"> Commission de la formation par la recherche  </a> of the LJAD
         </li>
         </ul>
-        <div id="enseignement">Teaching</div>
-        
-        
-        <!-- CHANGE -->
-        <ul>
-        <li>L1</li>
-            <ul>
-            <li>Mathématiques: approches continues</li>
-            <li>Analyse et modélisation</li>
-            <li>Mécanique de la cellule</li>
-            </ul>
-        <li>L2</li>
-            <ul>
-            <li>Algèbre
-            <li>Analyse
-            </ul>
-        <li>L3</li>
-            <ul>
-            <li>Equations différentielles</li>
-            <li>Statistiques</li>
-            <li>Comportement des biomatériaux</li>
-            <li>Mécanique</li>
-            <li>Cell and tissue engineering</li>
-            <li>Bioinstrumentation</li>
-            <li>MicroElectroMechanicalSystems (MEMS)</li>
-            <li>Dimensionnement des structures composites</li>
-            </ul>
-        <li>M1</li>
-            <ul>
-            <li>Solid mechanics</li>
-            </ul>
-        <li>M2</li>
-            <ul>
-            <li>Mathematical modelling for cell mechanics</li>
-            <li>Cell mechanics, adhesion and motility</li>
-            <li>Cell biomechanics</li>
-            <li>Mechanics</li>
-            <li>Mechanical behaviour of biological tissues</li>
-            </ul>
-        </ul>
-        <div id="enseignement">Scientific supervision</div>
-        <!-- CHANGE -->
-        <ul>
-        <li>Minku Arora (2025-2026) -  Numerical modelling of bone remodelling based on anisotropic damage</li>
-        <li>Francesca Ballatore (2025-2026) - Multiphysics model of confined cell migration (<a href="https://sites.google.com/view/multiphysc2m/home" target="_blank">ANR-24-CE45-0690</a>)</li>
-        <li>David Hernandez-Aristizabal (2024-2026) - In silico modelling of the mechanical interaction between the cell and the basal lamina during cancer invasion (INSERM LSP 296457)</li>
-        <li>Nicolas Ruyssen (2019-2022)- <a
-            href=""
-            target="_blank">Modèles numériques pour l’étude in vitro de la synapse immunologique B : de l’optimisation d’un système de capture microfluidique à l’estimation des forces de contact </a></li>
-        <li>Jamie Frame (2016-2017) - Computational modelling of osseointegration of hydrogel implants</li>
-        <li>Thomas Thenard (2017-2021) - <a
-            href="https://www.theses.fr/s190541"
-            target="_blank">Influence de la rugosité de surfaces Ti-6Al-4V obtenues par fabrication additive SLM sur l'ostéointégration : Évaluation in vitro et in silico </a></li>
-        <li>Solenne Deveraux (2015-2018) - <a href="https://tel.archives-ouvertes.fr/tel-01968076/document" target="_blank"> Modélisation de la mécanique de la cellule et son noyau dans le cadre de la migration confinée</a></li>
-        <li>Mary Schmitt (2012-2015) - <a href="https://pastel.archives-ouvertes.fr/tel-01179783/document" target="_blank"> Analyses expérimentales et modélisation numérique de l’ostéogenèse au sein d’un implant poreux en titane.</a></li>
-        <li>Samy Bendaya (2011-2014) - Etude comparative des paramètres pelviens, acétabulaires et fémoraux proximaux des hanches natives asymptomatiques, chez les coxarthroses et après PTH. Analyse par système EOS</li>
-        </ul>
-        <div id="publications">Publications</div>
-        <!-- List of publications -->
-        
-        <ol reversed>
-            
-        <li> N. Ruyssen, G. Fina, <b>R. Allena</b> M.-C. Jullien, J. Fattaccioli <a href="https://www.sciencedirect.com/science/article/abs/pii/S0045793025001033" target="_blank"> Using lateral dispersion to optimise microfluidic trap array efficiency</a>, (2025)</li>
-        
-        <li> <b>R. Allena</b>, D. Scerrato, A. Bersani, I. Giorgio<a href="https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.5802/crmeca.291/" target="_blank"> Simulating Bone Healing with Bio-Resorbable Scaffolds in a Three-Dimensional System: Insights into Graft Resorption and Integration</a>, (2025)</li>
-        
-        <li> <b>R. Allena</b>, Y. Rémond<a href="" target="_blank"> How can theramechanics drive bone remodeling?.</a>, (2025)</li>
-            
-        <li> <b>R. Allena</b><a href="https://www.tandfonline.com/doi/full/10.1080/29937574.2024.2404052?src=exp-la" target="_blank"> Potential theramechanics for cancer invasion:
-            an in silico study.</a>, (2024)</li>
-            
-        <li> <b>R. Allena</b><a href="https://www.sciencedirect.com/science/article/abs/pii/S0093641324000636" target="_blank"> A numerical study to discriminate between the hydrostatic and deviatoric strain energies impact on cells activity during bone remodelling.</a>, (2024)</li>
-            
-        <li> <b>R. Allena</b>, D. Scerrato, A. Bersani, I. Giorgio<a href="https://link.springer.com/article/10.1007/s00033-024-02230-x" target="_blank"> Functional adaptation of bone mechanical properties using a diffusive stimulus originated by dynamic loads in bone remodelling.</a>, (2024)</li>
-        
-        <li> <b>R. Allena</b>, Y. Rémond<a href="https://msp.org/memocs/2023/11-4/p05.xhtml" target="_blank"> Theramechanics: how acting on mechanics will help conceiving new medical treatments.</a>, (2023)</li>
-        
-        <li> <b>R. Allena</b>, D. Aubry<a href="https://www.sciencedirect.com/science/article/pii/S0093641323000873" target="_blank"> Implicit implementation of the cell-micropillars interaction during cell drop under gravity.</a>, (2023)</li>
-        
-        <li> <b>R. Allena</b>, D. Scerrato, A. M. Bersani, I. Giorgio<a href="https://www.sciencedirect.com/science/article/abs/pii/S0093641323000526?via%3Dihub" target="_blank"> A model for the bio-mechanical stimulus in bone remodelling as a diffusive signalling agent for bones reconstructed with bio-resorbable grafts.</a>, (2023)</li>
-        
-        <li> L. Pinon, N. Ruyssen, J. Pineau, O. Mesdjian, D. Cuvelier, <b>R. Allena</b>, S. Asnacios, A. Asnascios, P. Pierobon, J. Fattaccioli<a href="https://www.sciencedirect.com/science/article/pii/S2667237522002326" target="_blank"> Phenotyping Polarization Dynamics Of Immune Cells Using A Lipid Droplet - Cell Pairing Microfluidic Platform.</a>, (2022)</li>
-        
-        <li> L. Pinon, N. Ruyssen, J. Pineau, O. Mesdjian, D. Cuvelier, <b>R. Allena</b>, S. Asnacios, A. Asnascios, P. Pierobon, J. Fattaccioli<a href="https://www.biorxiv.org/content/10.1101/2021.12.22.473360v3?ct=" target="_blank"> Onset and kinetics of B cell polarization depend on substrate mechanics and antigen concentration.</a>, (2022)</li>
-        
-        <li> C. Perier-Metz, L. Corté, <b>R. Allena</b>, S. Checa<a href="https://pubmed.ncbi.nlm.nih.gov/35433640/" target="_blank"> A 3D in silico multi-tissue evolution model highlights the relevance of local strain accumulation in bone fracture remodeling.</a>, (2022)</li>
-        
-        <li> D. George, S. Pallu, C. Bourzac, R. Wazzani, <b>R. Allena</b>, Y. Rémond, H. Portier<a href="https://www.mdpi.com/2075-1729/12/2/233" target="_blank"> Prediction of cortical bone thickness variations in the tibial diaphysis of running rats.</a>, (2022)</li>
-        
-        <li> L. Pinon, N. Ruyssen, J. Pineau, O. Mesdjian, D. Cuvelier, <b>R. Allena</b>, S. Asnacios, A. Asnascios, P. Pierobon, J. Fattaccioli<a href="https://www.biorxiv.org/content/10.1101/2021.12.22.473360v4.abstract" target="_blank"> Phenotyping Polarization Dynamics Of Immune Cells Using A Lipid Droplet - Cell Pairing Microfluidic Platform.</a>, (2021)</li>
-            
-        <li> N. Ruyssen, J. Fattaccioli, M. C. Jullien, <b>R. Allena</b><a href="https://arxiv.org/abs/2110.07412" target="_blank"> An in silico study to geometrically optimize microfluidic trap array for trapping efficiency.</a>, (2021)</li>
-        
-        <li> <b>R. Allena</b>, D. Aubry<a href="https://www.techscience.com/mcb/v19n1/46231" target="_blank"> Nuclear Stress-strain State Over Micropillars: A Mechanical In Silico Study.</a>, (2021)</li>
-        
-        <li> O. Mesdjian, N. Ruyssen, C. Jullien, <b>R. Allena</b>, J. Fattaccioli<a href="https://arxiv.org/abs/2106.14512" target="_blank"> Enhancing the capture efficiency and homogeneity of single-layer flow-through trapping microfluidic devices using oblique hydrodynamic streams.</a>, (2021)</li>
-        
-        <li> <b>R. Allena</b>, C. Cluzel<a href="https://msp.org/memocs/2021/9-1/p02.xhtml" target="_blank"> Computational implementation of non-uniform orthotropic directions in the femoral diaphysis based on cortical bone microstructure to build a constitutive model.</a>, (2021)</li>
-        
-        <li>T. Thenard, A. Catapano, <b>R. Allena</b>, M. El May, N. Saintier, M. Mesnard<a href="https://www.tandfonline.com/doi/abs/10.1080/15376494.2020.1836292?journalCode=umcm20" target="_blank"> Topography and wettability characterization of surfaces manufacturedby SLM and treated by chemical etching</a>, (2020)</li>
-        
-        <li>T. Thenard, A. Catapano, M. Mesnard et <b>R. Allena</b><a href="https://www.sciencedirect.com/science/article/abs/pii/S0022519320303428" target="_blank"> A Cellular Potts energy-based approach to analyse the influence of the surface topography on single cell motility</a>, (2020)</li>
-        
-        <li>D. George, <b>R. Allena</b>, C. Bourzac, S. Pallu, M. Bensidhoum, H. Portieret  Y. Rémond<a href="https://www.tandfonline.com/doi/full/10.1080/10255842.2020.1812843" target="_blank"> How mechanobiological modelling of cellular activities can predict bone density evolution?</a>, (2020)</li>
-        
-        <li>D. George, <b>R. Allena</b>, C. Bourzac, S. Pallu, M. Bensidhoum, H. Portieret  Y. Rémond<a href="https://msp.org/memocs/2020/8-4/p02.xhtml" target="_blank"> A  new  comprehensive  approach  for  bone  remodeling  under  mediumand  high  mechanical  load  based  on  cellular  activity</a>, (2020)</li>
-        
-        <li>S. Mondésert-Deveraux, D. Aubry, <b>R. Allena</b><a href="https://link.springer.com/article/10.1007/s10237-019-01144-2" target="_blank"> In silico approach to quantify nucleus self-deformation on micropillared substrates</a>, (2019)</li>
-        
-        <li>D. George, <b>R. Allena</b>, Y. Rémond<a href="https://link.springer.com/article/10.1007/s00161-018-0726-7" target="_blank"> Integrating molecular and cellular kinetics into a coupled continuum mechanobiological stimulus for bone reconstruction</a>, (2019)</li>
-        
-        <li>J. Frame, P.-Y. Rohan, L. Corté, <b>R. Allena</b><a href="https://link.springer.com/article/10.1007/s00161-017-0611-9" target="_blank"> A mechano-biological model of multi-tissue evolution in bone</a>, (2019)</li>
-        
-        <li>P. Davidson, G. Fedorchack, S. Mondésert-Deveraux, E. Bell, P. Isermann, D. Aubry, <b>R. Allena</b>, J. Lammerding<a href="https://pubs.rsc.org/en/content/articlelanding/2019/lc/c9lc00444k#!divAbstract" target="_blank"> High-throughput microfluidic micropipette aspiration device to probe time-scale dependent nuclear mechanics in intact cells</a>, (2019)</li>
+      </section>
 
-        <li> <b>R. Allena</b>, C. Cluzel<a href="https://msp.org/memocs/2018/6-4/memocs-v6-n4-p05-s.pdf" target="_blank"> Heterogeneous directions of orthotropy in three-dimensional structures: finite element description based on diffusion equations</a>, (2018)</li>
-        
-        <li>D. George, <b>R. Allena</b>, Y. Rémond<a href="https://msp.org/memocs/2018/6-4/memocs-v6-n4-p03-p.pdf" target="_blank"> A multiphysics stimulus for continuum mechanics bone remodeling</a>, (2018)</li>
-        
-        <li> C. Cluzel<b>, R. Allena</b><a href="https://msp.org/memocs/2018/6-4/memocs-v6-n4-p06-p.pdf" target="_blank"> A general method for the determination of the local orthotropic directions of heterogeneous materials: application to bone structures using μCT images</a>, (2018)</li>
-         
-        <li> <b>R. Allena</b><a href="https://www.sciencedirect.com/science/article/pii/S2352177518300128" target="_blank"> The discriminant role of mechanics during cell migration</a>, (2018)</li>
-        
-        <li> D. George, <b>R. Allena</b>, Y. Rémond<a href="https://www.sciencedirect.com/science/article/pii/S2352177518300116" target="_blank"> Cell nutriments and motility for mechanobiological bone remodeling in the context of orthodontic periodontal ligament deformation</a>, (2018)</li>
+      <section id="teaching">
+        <h2 class="text-2xl font-semibold text-blue-800 mb-4">Teaching</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li><strong>L1:</strong> Mathématiques: approches continues, Analyse et modélisation, Mécanique de la cellule</li>
+          <li><strong>L2:</strong> Algèbre, Analyse</li>
+          <li><strong>L3:</strong> Équations différentielles, Statistiques, Comportement des biomatériaux, Mécanique, Cell and tissue engineering, Bioinstrumentation, MEMS, Structures composites</li>
+          <li><strong>M1:</strong> Solid mechanics</li>
+          <li><strong>M2:</strong> Mathematical modelling for cell mechanics, Cell adhesion/motility, Cell biomechanics, Mechanics of biological tissues</li>
+        </ul>
+      </section>
+
+    
+    <section id="research topics">
+      <h2 class="text-2xl font-semibold text-blue-800 mb-4">Research topics</h2>
+      <ul class="list-disc list-inside space-y-2">
+          <li>Computational mechanics</li>
+          <li>Numerical methods</li>
+          <li>Mechanobiology</li>
+          <li>Cell mechanics</li>
+      </ul>
+    </section>
+    
+    <section id="scientific supervision">
+      <h2 class="text-2xl font-semibold text-blue-800 mb-4">Scientific supervision</h2>
+      <ul class="list-disc list-inside space-y-2">
+          <li>Minku Arora (2025-2026) -  Numerical modelling of bone remodelling based on anisotropic damage</li>
+          <li>Francesca Ballatore (2025-2026) - Multiphysics model of confined cell migration (<a href="https://sites.google.com/view/multiphysc2m/home" target="_blank" class="text-blue-600 hover:underline" class="text-blue-600 hover:underline">ANR-24-CE45-0690</a>)</li>
+          <li>David Hernandez-Aristizabal (2024-2026) - In silico modelling of the mechanical interaction between the cell and the basal lamina during cancer invasion (INSERM LSP 296457)</li>
+          <li>Nicolas Ruyssen (2019-2022)- <a
+              href="https://theses.fr/2022HESAE074"
+              target="_blank" class="text-blue-600 hover:underline" class="text-blue-600 hover:underline">Modèles numériques pour l’étude in vitro de la synapse immunologique B : de l’optimisation d’un système de capture microfluidique à l’estimation des forces de contact </a></li>
+          <li>Jamie Frame (2016-2017) - Computational modelling of osseointegration of hydrogel implants</li>
+          <li>Thomas Thenard (2017-2021) - <a
+              href="https://www.theses.fr/s190541"
+              target="_blank" class="text-blue-600 hover:underline" class="text-blue-600 hover:underline">Influence de la rugosité de surfaces Ti-6Al-4V obtenues par fabrication additive SLM sur l'ostéointégration : Évaluation in vitro et in silico </a></li>
+          <li>Solenne Deveraux (2015-2018) - <a href="https://tel.archives-ouvertes.fr/tel-01968076/document" target="_blank" class="text-blue-600 hover:underline" class="text-blue-600 hover:underline"> Modélisation de la mécanique de la cellule et son noyau dans le cadre de la migration confinée</a></li>
+          <li>Mary Schmitt (2012-2015) - <a href="https://pastel.archives-ouvertes.fr/tel-01179783/document" target="_blank" class="text-blue-600 hover:underline" class="text-blue-600 hover:underline"> Analyses expérimentales et modélisation numérique de l’ostéogenèse au sein d’un implant poreux en titane.</a></li>
+          <li>Samy Bendaya (2011-2014) - Etude comparative des paramètres pelviens, acétabulaires et fémoraux proximaux des hanches natives asymptomatiques, chez les coxarthroses et après PTH. Analyse par système EOS</li>
+      </ul>
+    </section>
+    
+    <section id="publications">
+      <h2 class="text-2xl font-semibold text-blue-800 mb-4">Publications</h2>
+      <ul class="list-disc list-inside space-y-2">
           
-        <li> J. Frame, P.-Y. Rohan, L. Corté, <b>R. Allena</b><a href="https://www.sciencedirect.com/science/article/abs/pii/S0093641317306602" target="_blank"> Optimal bone structure is dependent on the interplay between mechanics and cellular activities</a>, (2018)</li>
-        
-        <li> S. Mondésert-Deveraux, <b>R. Allena</b>, D. Aubry<a href="http://www.tspsubmission.com/index.php/mcb/article/view/4505" target="_blank"> A coupled friction-poroelasticity model of chimneying shows that confined cells can mechanically migrate without adhesions</a>, (2018)</li>
-        
-        <li> S. Mondésert-Deveraux, <b>R. Allena</b>, D. Aubry<a href="https://www.sciencedirect.com/science/article/pii/S0022519317304198?via%3Dihub" target="_blank"> A numerical model suggests the interplay between nuclear plasticity and stiffness during a perfusion assay</a>, (2017)</li>
-        
-        <li> D. George, <b>R. Allena</b>, Y. Rémond<a href="https://www.tandfonline.com/doi/full/10.1080/10255842.2017.1382876" target="_blank"> Mechanobiological stimuli for bone remodeling: mechanical energy, cell nutriments and mobility</a>, (2017)</li>
-        
-        <li> S. Bendaya, C. Anglin, J.-Y. Lazennec, <b>R. Allena</b>, P. Thoumie, W. Skalli<a href="https://www.arthroplastyjournal.org/article/S0883-5403(16)00003-6/fulltext" target="_blank"> Good vs poor results after total hip arthroplasty: an analysis method using implant and anatomic parameters with the EOS imaging system</a>, (2016)</li>
-        
-        <li> <b>R. Allena</b>, M. Scianna, L. Preziosi<a href="https://www.sciencedirect.com/science/article/abs/pii/S0025556416000420?via%3Dihub" target="_blank"> A Cellular Potts Model of single cell migration in presence of durotaxis</a>, (2016)</li>
-        
-        <li> M. Schmitt, <b>R. Allena</b>, T. Schouman, S. Frasca, J.-M. Collombet, P. Rouch<a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2014.998207?journalCode=gcmb20" target="_blank"> Diffusion model to describe osteogenesis within a porous titanium scaffold</a>, (2016)</li>
-        
-        <li> <b>R. Allena</b>, H. Thiam, M. Piel, D. Aubry<a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2015.1070576?journalCode=gcmb20" target="_blank"> A mechanical model to investigate the role of the nucleus during confined cell migration</a>, (2015)</li>
-        
-        <li> S. Mondésert-Deveraux, <b>R. Allena</b>, D. Aubry<a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2015.1069571" target="_blank"> Viscoelastoplastic model of cell nucleus under compression</a>, (2015)</li>
-        
-        <li> <b>R. Allena</b><a href="https://hal.archives-ouvertes.fr/tel-01214057/document" target="_blank"> Computational modelling of cell mechanics: from osteogenesis down to collective and single cell migration</a>, (2015)</li>
-        
-        <li> D. Aubry, M. Gupta, B. Ladoux, <b>R. Allena</b><a href="https://iopscience.iop.org/article/10.1088/1478-3975/12/2/026008" target="_blank"> Mechanical link between durotaxis, cell polarity and anisotropy during cell migration</a>, (2015)</li>
-        
-        <li> S. Bendaya, J.-Y. Lazennec, C. Anglin, <b>R. Allena</b>, N. Sellam, P. Thoumie, W. Skalli<a href="https://www.clinbiomech.com/article/S0268-0033(14)00293-9/fulltext" target="_blank"> Healthy vs. osteoarthritic hips: A comparison of hip, pelvis and femoral parameters and relationships using the EOS® system</a>, (2015)</li>
-        
-        <li> C. Cluzel, <b>R. Allena</b><a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2015.1070580?journalCode=gcmb20" target="_blank"> Modelling of anisotropic cortical bone based on degradation mechanism</a>, (2015)</li>
-        
-        <li> D. Aubry, H. Thiam, M. Piel, <b>R. Allena</b><a href="https://link.springer.com/article/10.1007/s10237-014-0595-3" target="_blank"> A computational mechanics approach to assess the link between cell morphology and forces during confined migration</a>, (2015)</li>
-        
-        <li> <b>R. Allena</b>, P. K. Maini<a href="https://link.springer.com/article/10.1007%2Fs11538-014-0043-7" target="_blank"> Reaction–diffusion finite element model of lateral line primordium migration to explore cell leadership</a>, (2014)</li>
-        
-        <li> <b>R. Allena</b>, C. Cluzel<a href="https://www.sciencedirect.com/science/article/pii/S1751616114001714" target="_blank"> Identification of anisotropic tensile strength of cortical bone using Brazilian test</a>, (2014)</li>
-        
-        <li> <b>R. Allena</b><a href="https://www.ncbi.nlm.nih.gov/pubmed/25831860" target="_blank"> Mechanical modelling of confined cell migration across constricted-curved micro-channels</a>, (2014)</li>
-        
-        <li> <b>R. Allena</b>, D. Aubry, J. Sharpe<a href="https://link.springer.com/article/10.1007%2Fs11538-013-9908-4" target="_blank"> On the mechanical interplay between intra-and inter-synchronization during collective cell migration: a numerical investigation</a>, (2013)</li>
-        
-        <li> M. Schmitt, P. Rouch, Y. Tillier, T. Schouman, <b>R. Allena</b><a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2013.815936" target="_blank"> Diffusion–reaction model to describe osteogenesis within a titanium scaffold</a>, (2013)</li>
-        
-        <li> <b>R. Allena</b>, J. Muñoz, D. Aubry<a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2011.616944?journalCode=gcmb20" target="_blank"> Diffusion-reaction model for Drosophila embryo development</a>, (2013)</li>
-        
-        <li> <b>R. Allena</b><a href="https://link.springer.com/article/10.1007%2Fs11538-012-9806-1" target="_blank"> Cell migration with multiple pseudopodia: temporal and spatial sensing models</a>, (2013)</li>
-        
-        <li> <b>R. Allena</b>, D. Aubry<a href="https://tandfonline.com/doi/abs/10.1080/10255842.2012.713649" target="_blank"> A purely mechanical model to explore amoeboid cell migration</a>, (2012)</li>
-        
-        <li> <b>R. Allena</b>, D. Aubry<a href="https://www.sciencedirect.com/science/article/pii/S0022519312001737" target="_blank"> ‘Run-and-tumble’or ‘look-and-run’? A mechanical model to explore the behavior of a migrating amoeboid cell</a>, (2012)</li>
-        
-        <li> <b>R. Allena</b>, D. Aubry<a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2010.539564?journalCode=gcmb20" target="_blank"> An extensive numerical simulation of the cephalic furrow formation in Drosophila embryo</a>, (2012)</li>
-        
-        <li> <b>R. Allena</b>, D. Aubry<a href="https://pdfs.semanticscholar.org/3c31/8bfe424c228cbed4d449a2e493d8c1a72c77.pdf" target="_blank"> Coupling ALE Technique and Harmonic Parametrization to Describe Concurrent and Successive Elementary Cell Deformations</a>, (2011)</li>
-        
-        <li> <b>R. Allena</b>, D. Aubry<a href="https://link.springer.com/article/10.1007/s00466-010-0551-8" target="_blank"> A novel technique to parametrize shell-like deformations inside biological membranes</a>, (2011)</li>
-        
-        <li> <b>R. Allena</b>, A.-S. Mouronval, D. Aubry<a href="https://www.sciencedirect.com/science/article/pii/S1751616110000032?via%3Dihub" target="_blank"> Simulation of multiple morphogenetic movements in the Drosophila embryo by a single 3D finite element model</a>, (2011)</li>
-        
-        <li> <b>R. Allena</b><a href="https://tel.archives-ouvertes.fr/tel-00429691v2/document" target="_blank"> Numerical simulation of morphogenetic movements in Drosophila embryo</a>, (2009)</li>
-        </ol>
-        
-        
-        </div>
-        <div id="footer">
-        Copyright @ 2010 <a href="http://math.unice.fr" target="_blank">Laboratory J.A. Dieudonné</a>
-        </div>
-        <br>
-        </div>
-    </body>
+          <ol reversed>
+              
+          <li> N. Ruyssen, G. Fina, <b>R. Allena</b> M.-C. Jullien, J. Fattaccioli <a href="https://www.sciencedirect.com/science/article/abs/pii/S0045793025001033" target="_blank" class="text-blue-600 hover:underline"> Using lateral dispersion to optimise microfluidic trap array efficiency</a>, (2025)</li>
+          
+          <li> <b>R. Allena</b>, D. Scerrato, A. Bersani, I. Giorgio<a href="https://comptes-rendus.academie-sciences.fr/mecanique/articles/10.5802/crmeca.291/" target="_blank" class="text-blue-600 hover:underline"> Simulating Bone Healing with Bio-Resorbable Scaffolds in a Three-Dimensional System: Insights into Graft Resorption and Integration</a>, (2025)</li>
+          
+          <li> <b>R. Allena</b>, Y. Rémond<a href="" target="_blank" class="text-blue-600 hover:underline"> How can theramechanics drive bone remodeling?.</a>, (2025)</li>
+              
+          <li> <b>R. Allena</b><a href="https://www.tandfonline.com/doi/full/10.1080/29937574.2024.2404052?src=exp-la" target="_blank" class="text-blue-600 hover:underline"> Potential theramechanics for cancer invasion:
+              an in silico study.</a>, (2024)</li>
+              
+          <li> <b>R. Allena</b><a href="https://www.sciencedirect.com/science/article/abs/pii/S0093641324000636" target="_blank" class="text-blue-600 hover:underline"> A numerical study to discriminate between the hydrostatic and deviatoric strain energies impact on cells activity during bone remodelling.</a>, (2024)</li>
+              
+          <li> <b>R. Allena</b>, D. Scerrato, A. Bersani, I. Giorgio<a href="https://link.springer.com/article/10.1007/s00033-024-02230-x" target="_blank" class="text-blue-600 hover:underline"> Functional adaptation of bone mechanical properties using a diffusive stimulus originated by dynamic loads in bone remodelling.</a>, (2024)</li>
+          
+          <li> <b>R. Allena</b>, Y. Rémond<a href="https://msp.org/memocs/2023/11-4/p05.xhtml" target="_blank" class="text-blue-600 hover:underline"> Theramechanics: how acting on mechanics will help conceiving new medical treatments.</a>, (2023)</li>
+          
+          <li> <b>R. Allena</b>, D. Aubry<a href="https://www.sciencedirect.com/science/article/pii/S0093641323000873" target="_blank" class="text-blue-600 hover:underline"> Implicit implementation of the cell-micropillars interaction during cell drop under gravity.</a>, (2023)</li>
+          
+          <li> <b>R. Allena</b>, D. Scerrato, A. M. Bersani, I. Giorgio<a href="https://www.sciencedirect.com/science/article/abs/pii/S0093641323000526?via%3Dihub" target="_blank" class="text-blue-600 hover:underline"> A model for the bio-mechanical stimulus in bone remodelling as a diffusive signalling agent for bones reconstructed with bio-resorbable grafts.</a>, (2023)</li>
+          
+          <li> L. Pinon, N. Ruyssen, J. Pineau, O. Mesdjian, D. Cuvelier, <b>R. Allena</b>, S. Asnacios, A. Asnascios, P. Pierobon, J. Fattaccioli<a href="https://www.sciencedirect.com/science/article/pii/S2667237522002326" target="_blank" class="text-blue-600 hover:underline"> Phenotyping Polarization Dynamics Of Immune Cells Using A Lipid Droplet - Cell Pairing Microfluidic Platform.</a>, (2022)</li>
+          
+          <li> L. Pinon, N. Ruyssen, J. Pineau, O. Mesdjian, D. Cuvelier, <b>R. Allena</b>, S. Asnacios, A. Asnascios, P. Pierobon, J. Fattaccioli<a href="https://www.biorxiv.org/content/10.1101/2021.12.22.473360v3?ct=" target="_blank" class="text-blue-600 hover:underline"> Onset and kinetics of B cell polarization depend on substrate mechanics and antigen concentration.</a>, (2022)</li>
+          
+          <li> C. Perier-Metz, L. Corté, <b>R. Allena</b>, S. Checa<a href="https://pubmed.ncbi.nlm.nih.gov/35433640/" target="_blank" class="text-blue-600 hover:underline"> A 3D in silico multi-tissue evolution model highlights the relevance of local strain accumulation in bone fracture remodeling.</a>, (2022)</li>
+          
+          <li> D. George, S. Pallu, C. Bourzac, R. Wazzani, <b>R. Allena</b>, Y. Rémond, H. Portier<a href="https://www.mdpi.com/2075-1729/12/2/233" target="_blank" class="text-blue-600 hover:underline"> Prediction of cortical bone thickness variations in the tibial diaphysis of running rats.</a>, (2022)</li>
+          
+          <li> L. Pinon, N. Ruyssen, J. Pineau, O. Mesdjian, D. Cuvelier, <b>R. Allena</b>, S. Asnacios, A. Asnascios, P. Pierobon, J. Fattaccioli<a href="https://www.biorxiv.org/content/10.1101/2021.12.22.473360v4.abstract" target="_blank" class="text-blue-600 hover:underline"> Phenotyping Polarization Dynamics Of Immune Cells Using A Lipid Droplet - Cell Pairing Microfluidic Platform.</a>, (2021)</li>
+              
+          <li> N. Ruyssen, J. Fattaccioli, M. C. Jullien, <b>R. Allena</b><a href="https://arxiv.org/abs/2110.07412" target="_blank" class="text-blue-600 hover:underline"> An in silico study to geometrically optimize microfluidic trap array for trapping efficiency.</a>, (2021)</li>
+          
+          <li> <b>R. Allena</b>, D. Aubry<a href="https://www.techscience.com/mcb/v19n1/46231" target="_blank" class="text-blue-600 hover:underline"> Nuclear Stress-strain State Over Micropillars: A Mechanical In Silico Study.</a>, (2021)</li>
+          
+          <li> O. Mesdjian, N. Ruyssen, C. Jullien, <b>R. Allena</b>, J. Fattaccioli<a href="https://arxiv.org/abs/2106.14512" target="_blank" class="text-blue-600 hover:underline"> Enhancing the capture efficiency and homogeneity of single-layer flow-through trapping microfluidic devices using oblique hydrodynamic streams.</a>, (2021)</li>
+          
+          <li> <b>R. Allena</b>, C. Cluzel<a href="https://msp.org/memocs/2021/9-1/p02.xhtml" target="_blank" class="text-blue-600 hover:underline"> Computational implementation of non-uniform orthotropic directions in the femoral diaphysis based on cortical bone microstructure to build a constitutive model.</a>, (2021)</li>
+          
+          <li>T. Thenard, A. Catapano, <b>R. Allena</b>, M. El May, N. Saintier, M. Mesnard<a href="https://www.tandfonline.com/doi/abs/10.1080/15376494.2020.1836292?journalCode=umcm20" target="_blank" class="text-blue-600 hover:underline"> Topography and wettability characterization of surfaces manufacturedby SLM and treated by chemical etching</a>, (2020)</li>
+          
+          <li>T. Thenard, A. Catapano, M. Mesnard et <b>R. Allena</b><a href="https://www.sciencedirect.com/science/article/abs/pii/S0022519320303428" target="_blank" class="text-blue-600 hover:underline"> A Cellular Potts energy-based approach to analyse the influence of the surface topography on single cell motility</a>, (2020)</li>
+          
+          <li>D. George, <b>R. Allena</b>, C. Bourzac, S. Pallu, M. Bensidhoum, H. Portieret  Y. Rémond<a href="https://www.tandfonline.com/doi/full/10.1080/10255842.2020.1812843" target="_blank" class="text-blue-600 hover:underline"> How mechanobiological modelling of cellular activities can predict bone density evolution?</a>, (2020)</li>
+          
+          <li>D. George, <b>R. Allena</b>, C. Bourzac, S. Pallu, M. Bensidhoum, H. Portieret  Y. Rémond<a href="https://msp.org/memocs/2020/8-4/p02.xhtml" target="_blank" class="text-blue-600 hover:underline"> A  new  comprehensive  approach  for  bone  remodeling  under  mediumand  high  mechanical  load  based  on  cellular  activity</a>, (2020)</li>
+          
+          <li>S. Mondésert-Deveraux, D. Aubry, <b>R. Allena</b><a href="https://link.springer.com/article/10.1007/s10237-019-01144-2" target="_blank" class="text-blue-600 hover:underline"> In silico approach to quantify nucleus self-deformation on micropillared substrates</a>, (2019)</li>
+          
+          <li>D. George, <b>R. Allena</b>, Y. Rémond<a href="https://link.springer.com/article/10.1007/s00161-018-0726-7" target="_blank" class="text-blue-600 hover:underline"> Integrating molecular and cellular kinetics into a coupled continuum mechanobiological stimulus for bone reconstruction</a>, (2019)</li>
+          
+          <li>J. Frame, P.-Y. Rohan, L. Corté, <b>R. Allena</b><a href="https://link.springer.com/article/10.1007/s00161-017-0611-9" target="_blank" class="text-blue-600 hover:underline"> A mechano-biological model of multi-tissue evolution in bone</a>, (2019)</li>
+          
+          <li>P. Davidson, G. Fedorchack, S. Mondésert-Deveraux, E. Bell, P. Isermann, D. Aubry, <b>R. Allena</b>, J. Lammerding<a href="https://pubs.rsc.org/en/content/articlelanding/2019/lc/c9lc00444k#!divAbstract" target="_blank" class="text-blue-600 hover:underline"> High-throughput microfluidic micropipette aspiration device to probe time-scale dependent nuclear mechanics in intact cells</a>, (2019)</li>
+
+          <li> <b>R. Allena</b>, C. Cluzel<a href="https://msp.org/memocs/2018/6-4/memocs-v6-n4-p05-s.pdf" target="_blank" class="text-blue-600 hover:underline"> Heterogeneous directions of orthotropy in three-dimensional structures: finite element description based on diffusion equations</a>, (2018)</li>
+          
+          <li>D. George, <b>R. Allena</b>, Y. Rémond<a href="https://msp.org/memocs/2018/6-4/memocs-v6-n4-p03-p.pdf" target="_blank" class="text-blue-600 hover:underline"> A multiphysics stimulus for continuum mechanics bone remodeling</a>, (2018)</li>
+          
+          <li> C. Cluzel<b>, R. Allena</b><a href="https://msp.org/memocs/2018/6-4/memocs-v6-n4-p06-p.pdf" target="_blank" class="text-blue-600 hover:underline"> A general method for the determination of the local orthotropic directions of heterogeneous materials: application to bone structures using μCT images</a>, (2018)</li>
+           
+          <li> <b>R. Allena</b><a href="https://www.sciencedirect.com/science/article/pii/S2352177518300128" target="_blank" class="text-blue-600 hover:underline"> The discriminant role of mechanics during cell migration</a>, (2018)</li>
+          
+          <li> D. George, <b>R. Allena</b>, Y. Rémond<a href="https://www.sciencedirect.com/science/article/pii/S2352177518300116" target="_blank" class="text-blue-600 hover:underline"> Cell nutriments and motility for mechanobiological bone remodeling in the context of orthodontic periodontal ligament deformation</a>, (2018)</li>
+            
+          <li> J. Frame, P.-Y. Rohan, L. Corté, <b>R. Allena</b><a href="https://www.sciencedirect.com/science/article/abs/pii/S0093641317306602" target="_blank" class="text-blue-600 hover:underline"> Optimal bone structure is dependent on the interplay between mechanics and cellular activities</a>, (2018)</li>
+          
+          <li> S. Mondésert-Deveraux, <b>R. Allena</b>, D. Aubry<a href="http://www.tspsubmission.com/index.php/mcb/article/view/4505" target="_blank" class="text-blue-600 hover:underline"> A coupled friction-poroelasticity model of chimneying shows that confined cells can mechanically migrate without adhesions</a>, (2018)</li>
+          
+          <li> S. Mondésert-Deveraux, <b>R. Allena</b>, D. Aubry<a href="https://www.sciencedirect.com/science/article/pii/S0022519317304198?via%3Dihub" target="_blank" class="text-blue-600 hover:underline"> A numerical model suggests the interplay between nuclear plasticity and stiffness during a perfusion assay</a>, (2017)</li>
+          
+          <li> D. George, <b>R. Allena</b>, Y. Rémond<a href="https://www.tandfonline.com/doi/full/10.1080/10255842.2017.1382876" target="_blank" class="text-blue-600 hover:underline"> Mechanobiological stimuli for bone remodeling: mechanical energy, cell nutriments and mobility</a>, (2017)</li>
+          
+          <li> S. Bendaya, C. Anglin, J.-Y. Lazennec, <b>R. Allena</b>, P. Thoumie, W. Skalli<a href="https://www.arthroplastyjournal.org/article/S0883-5403(16)00003-6/fulltext" target="_blank" class="text-blue-600 hover:underline"> Good vs poor results after total hip arthroplasty: an analysis method using implant and anatomic parameters with the EOS imaging system</a>, (2016)</li>
+          
+          <li> <b>R. Allena</b>, M. Scianna, L. Preziosi<a href="https://www.sciencedirect.com/science/article/abs/pii/S0025556416000420?via%3Dihub" target="_blank" class="text-blue-600 hover:underline"> A Cellular Potts Model of single cell migration in presence of durotaxis</a>, (2016)</li>
+          
+          <li> M. Schmitt, <b>R. Allena</b>, T. Schouman, S. Frasca, J.-M. Collombet, P. Rouch<a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2014.998207?journalCode=gcmb20" target="_blank" class="text-blue-600 hover:underline"> Diffusion model to describe osteogenesis within a porous titanium scaffold</a>, (2016)</li>
+          
+          <li> <b>R. Allena</b>, H. Thiam, M. Piel, D. Aubry<a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2015.1070576?journalCode=gcmb20" target="_blank" class="text-blue-600 hover:underline"> A mechanical model to investigate the role of the nucleus during confined cell migration</a>, (2015)</li>
+          
+          <li> S. Mondésert-Deveraux, <b>R. Allena</b>, D. Aubry<a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2015.1069571" target="_blank" class="text-blue-600 hover:underline"> Viscoelastoplastic model of cell nucleus under compression</a>, (2015)</li>
+          
+          <li> <b>R. Allena</b><a href="https://hal.archives-ouvertes.fr/tel-01214057/document" target="_blank" class="text-blue-600 hover:underline"> Computational modelling of cell mechanics: from osteogenesis down to collective and single cell migration</a>, (2015)</li>
+          
+          <li> D. Aubry, M. Gupta, B. Ladoux, <b>R. Allena</b><a href="https://iopscience.iop.org/article/10.1088/1478-3975/12/2/026008" target="_blank" class="text-blue-600 hover:underline"> Mechanical link between durotaxis, cell polarity and anisotropy during cell migration</a>, (2015)</li>
+          
+          <li> S. Bendaya, J.-Y. Lazennec, C. Anglin, <b>R. Allena</b>, N. Sellam, P. Thoumie, W. Skalli<a href="https://www.clinbiomech.com/article/S0268-0033(14)00293-9/fulltext" target="_blank" class="text-blue-600 hover:underline"> Healthy vs. osteoarthritic hips: A comparison of hip, pelvis and femoral parameters and relationships using the EOS® system</a>, (2015)</li>
+          
+          <li> C. Cluzel, <b>R. Allena</b><a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2015.1070580?journalCode=gcmb20" target="_blank" class="text-blue-600 hover:underline"> Modelling of anisotropic cortical bone based on degradation mechanism</a>, (2015)</li>
+          
+          <li> D. Aubry, H. Thiam, M. Piel, <b>R. Allena</b><a href="https://link.springer.com/article/10.1007/s10237-014-0595-3" target="_blank" class="text-blue-600 hover:underline"> A computational mechanics approach to assess the link between cell morphology and forces during confined migration</a>, (2015)</li>
+          
+          <li> <b>R. Allena</b>, P. K. Maini<a href="https://link.springer.com/article/10.1007%2Fs11538-014-0043-7" target="_blank" class="text-blue-600 hover:underline"> Reaction–diffusion finite element model of lateral line primordium migration to explore cell leadership</a>, (2014)</li>
+          
+          <li> <b>R. Allena</b>, C. Cluzel<a href="https://www.sciencedirect.com/science/article/pii/S1751616114001714" target="_blank" class="text-blue-600 hover:underline"> Identification of anisotropic tensile strength of cortical bone using Brazilian test</a>, (2014)</li>
+          
+          <li> <b>R. Allena</b><a href="https://www.ncbi.nlm.nih.gov/pubmed/25831860" target="_blank" class="text-blue-600 hover:underline"> Mechanical modelling of confined cell migration across constricted-curved micro-channels</a>, (2014)</li>
+          
+          <li> <b>R. Allena</b>, D. Aubry, J. Sharpe<a href="https://link.springer.com/article/10.1007%2Fs11538-013-9908-4" target="_blank" class="text-blue-600 hover:underline"> On the mechanical interplay between intra-and inter-synchronization during collective cell migration: a numerical investigation</a>, (2013)</li>
+          
+          <li> M. Schmitt, P. Rouch, Y. Tillier, T. Schouman, <b>R. Allena</b><a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2013.815936" target="_blank" class="text-blue-600 hover:underline"> Diffusion–reaction model to describe osteogenesis within a titanium scaffold</a>, (2013)</li>
+          
+          <li> <b>R. Allena</b>, J. Muñoz, D. Aubry<a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2011.616944?journalCode=gcmb20" target="_blank" class="text-blue-600 hover:underline"> Diffusion-reaction model for Drosophila embryo development</a>, (2013)</li>
+          
+          <li> <b>R. Allena</b><a href="https://link.springer.com/article/10.1007%2Fs11538-012-9806-1" target="_blank" class="text-blue-600 hover:underline"> Cell migration with multiple pseudopodia: temporal and spatial sensing models</a>, (2013)</li>
+          
+          <li> <b>R. Allena</b>, D. Aubry<a href="https://tandfonline.com/doi/abs/10.1080/10255842.2012.713649" target="_blank" class="text-blue-600 hover:underline"> A purely mechanical model to explore amoeboid cell migration</a>, (2012)</li>
+          
+          <li> <b>R. Allena</b>, D. Aubry<a href="https://www.sciencedirect.com/science/article/pii/S0022519312001737" target="_blank" class="text-blue-600 hover:underline"> ‘Run-and-tumble’or ‘look-and-run’? A mechanical model to explore the behavior of a migrating amoeboid cell</a>, (2012)</li>
+          
+          <li> <b>R. Allena</b>, D. Aubry<a href="https://www.tandfonline.com/doi/abs/10.1080/10255842.2010.539564?journalCode=gcmb20" target="_blank" class="text-blue-600 hover:underline"> An extensive numerical simulation of the cephalic furrow formation in Drosophila embryo</a>, (2012)</li>
+          
+          <li> <b>R. Allena</b>, D. Aubry<a href="https://pdfs.semanticscholar.org/3c31/8bfe424c228cbed4d449a2e493d8c1a72c77.pdf" target="_blank" class="text-blue-600 hover:underline"> Coupling ALE Technique and Harmonic Parametrization to Describe Concurrent and Successive Elementary Cell Deformations</a>, (2011)</li>
+          
+          <li> <b>R. Allena</b>, D. Aubry<a href="https://link.springer.com/article/10.1007/s00466-010-0551-8" target="_blank" class="text-blue-600 hover:underline"> A novel technique to parametrize shell-like deformations inside biological membranes</a>, (2011)</li>
+          
+          <li> <b>R. Allena</b>, A.-S. Mouronval, D. Aubry<a href="https://www.sciencedirect.com/science/article/pii/S1751616110000032?via%3Dihub" target="_blank" class="text-blue-600 hover:underline"> Simulation of multiple morphogenetic movements in the Drosophila embryo by a single 3D finite element model</a>, (2011)</li>
+          
+          <li> <b>R. Allena</b><a href="https://tel.archives-ouvertes.fr/tel-00429691v2/document" target="_blank" class="text-blue-600 hover:underline"> Numerical simulation of morphogenetic movements in Drosophila embryo</a>, (2009)</li>
+          </ol>
+          
+      </ul>
+    </section>
+    
+    </main>
+
+    <footer class="bg-white border-t py-4 text-center text-sm text-gray-500">
+      &copy; 2025 <a href="http://math.unice.fr" class="text-blue-600 hover:underline" target="_blank" class="text-blue-600 hover:underline">Laboratory J.A. Dieudonné</a>
+    </footer>
+  </body>
 </html>
